@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A propos on La conviviale</title>
+    <link>https://laconviviale.fr/about/</link>
+    <description>Recent content in A propos on La conviviale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 07 Aug 2021 11:49:30 +0200</lastBuildDate><atom:link href="https://laconviviale.fr/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
