@@ -1,7 +1,6 @@
 ---
 title: "Point d'avancement #1"
 date: 2021-08-07T11:55:43+02:00
-draft: true
 ---
 
 Bienvenue dans la première newsletter consacrée à la conviviale, le véhicule électrique, low tech et open source destiné à la campagne et aux autres contrées !
