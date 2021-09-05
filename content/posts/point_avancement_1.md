@@ -1,6 +1,7 @@
 ---
 title: "Point d'avancement #1"
 date: 2021-08-07T11:55:43+02:00
+toc: true
 ---
 
 Bienvenue dans la première newsletter consacrée à la conviviale, le véhicule électrique, low tech et open source destiné à la campagne et aux autres contrées !
@@ -27,53 +28,63 @@ Il semble qu’aucun constructeur automobile ne souhaite revenir à cette forme 
 
 ## Un chassis pour la convi !
 
-:::info
-**TL;DR** Pour le prototype nous allons prendre un chassis de 4L, car c’était pas cher, répandu et qu’il a la forme idéale (plateforme) pour ce qu’on souhaite faire.
-:::
+{{< rawhtml >}}
+<div class="pa2 bg-lightest-blue">
+<p><strong>TL;DR</strong> Pour le prototype nous allons prendre un chassis de 4L, car c’était pas cher, répandu et qu’il a la forme idéale (plateforme) pour ce qu’on souhaite faire.</p>
+</div>
+{{< /rawhtml >}}
+
 
 La première étape dans la réalisation de notre prototype était de trouver le chassis idéal pour notre projet.
 Nous cherchions quelque chose de modulaire, simple et peu coûteux.
 Au début, nous nous sommes penché sérieusement sur un des seul châssis open source existant (avec le projet wikispeed) à savoir la [Tabby Evo 4](https://www.openmotors.co/product/tabbyevo/). C’est un projet porté par OpenMotors, société italienne qui conçoit et commercialise une plateforme opensource pour véhicules électriques.
 
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_a9cefb79ab49689a0ddc1c0b8154f015.png)
+*La Tabby Evo 4 places, entièrement Open Source mais finalement peu adaptée au projet*
 
 OpenMotors fournissent en libre acces tous les plans et les modèles 3D du Tabby, mais pas la liste des pièces.
 
 Nous avons finalement décidé de ne pas partir avec pour plusieurs raisons :
-    • Le prix du chassis nu est excessivement cher pour notre petit budget (~16 000€)
-    • Si nous voulions le refaire nous même, nous n’avions pas les références des pièces utilisées et OpenMotors n’ont jamais répondu à nos questions. Et oui, car pour que le chassis soit fonctionnel, il faut trouver les bonnes suspensions, le bon moteur, le bon variateur, la bonne direction etc. Autant d’inconnues qui auraient rendues le projet difficilement réalisable en peu de temps.
-    • Enfin, le châssis est celui d’une petite citadine 4 places avec un rétrécissement à l’arrière et une barre au niveau des suspensions, ce qui contraignait beaucoup le design du véhicule et nous empêchait de faire un utilitaire.
+
+- Le prix du chassis nu est excessivement cher pour notre petit budget (~16 000€)
+- Si nous voulions le refaire nous même, nous n’avions pas les références des pièces utilisées et OpenMotors n’ont jamais répondu à nos questions. Et oui, car pour que le chassis soit fonctionnel, il faut trouver les bonnes suspensions, le bon moteur, le bon variateur, la bonne direction etc. Autant d’inconnues qui auraient rendues le projet difficilement réalisable en peu de temps.
+- Enfin, le châssis est celui d’une petite citadine 4 places avec un rétrécissement à l’arrière et une barre au niveau des suspensions, ce qui contraignait beaucoup le design du véhicule et nous empêchait de faire un utilitaire.
 
 Nous étions alors à la recherche d’un chassis existant, peu onéreux et, si possible, de type plateforme (maintenant on parle de type « skate » pour les véhicule électrique).
 
 On a d’abord cherché dans les véhicules léger des année 80 : C15, AX etc. mais tous ont un chassis monocoque. Très bien pour réduire le poids, augmenté la résistance, mais moins bien quand on veut avoir la liberté de faire ce qu’on veut dans l’habitacle.
 
 On a alors trouvé notre bonheur dans des chassis de conception plus ancienne à savoir ceux de la 4L car : 
-    • Ces châssis sont de nouveau fabriqué par des équipementier et on trouve des pièces neuves pour tous les éléments (cardans, amortisseurs etc.). Cela pourra être une bonne base pour le véhicule final.
-    • Enormément de personnes (principalement des jeunes ingénieurs par le biais du 4L trophy) réparent ces voitures et partage leur expérience détaillée en vidéo sur Youtube. J’ai rarement vu une voiture bricoler et retaper par un nombre aussi important de personne.
-    • C’est une voiture qui correspond à ce que l’on souhaite faire en terme de poids, puissance et dimensions
-    • Avec la 2CV, elle représente une sorte d’« age d’or » de l’automobile low tech, légère, sans chichi, réparable, tout en étant esthétique.
+- Ces châssis sont de nouveau fabriqué par des équipementier et on trouve des pièces neuves pour tous les éléments (cardans, amortisseurs etc.). Cela pourra être une bonne base pour le véhicule final.
+- Enormément de personnes (principalement des jeunes ingénieurs par le biais du 4L trophy) réparent ces voitures et partage leur expérience détaillée en vidéo sur Youtube. J’ai rarement vu une voiture bricoler et retaper par un nombre aussi important de personne.
+- C’est une voiture qui correspond à ce que l’on souhaite faire en terme de poids, puissance et dimensions
+- Avec la 2CV, elle représente une sorte d’« age d’or » de l’automobile low tech, légère, sans chichi, réparable, tout en étant esthétique.
 
 Début juin, Andréas est donc parti, sur un coup de tête, en covoiturage à Nantes acheter un 4 GTL a une famille qui l’utilisait pour emmener les enfants à l’école. Maintenant grand ados, ils ont vu partir leur 4L avec beaucoup d’émotion. Merci à Grégory !
 
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_04c642dd3b87236b6ab639622390d4d5.JPG)
+*La 4L de retour de Nantes*
 
 
-N’ayant pas à notre disposition les outils nécessaires pour démonter un moteur, Andréas a posté une annonce leboncoin en proposant de donner les pièces du moteur thermique et de la carrosserie, si la personne venait la démonter. 5 minute plus tard, il recevait un appel de Léopol, ingénieur en électronique (travaillant à Iso Delta, équipementier automobile proche de chez nous) et passionné en véhicules anciens. Il a très vite proposé d’échanger la 4L « fonctionnelle » contre un chassis de 4L dont le moteur était défectueux et de l’aide sur le projet.
+N’ayant pas à notre disposition les outils nécessaires pour démonter un moteur, Andréas a posté une annonce leboncoin en proposant de donner les pièces du moteur thermique et de la carrosserie, si la personne venait la démonter. 5 minute plus tard, il recevait un appel de Léopold, ingénieur en électronique (travaillant à Iso Delta, équipementier automobile proche de chez nous) et passionné en véhicules anciens. Il a très vite proposé d’échanger la 4L « fonctionnelle » contre un chassis de 4L dont le moteur était défectueux et de l’aide sur le projet.
 
-Son expertise autant en électronique qu’en véhicule ancien vont être d’une aide précieuse pour la réalisation du prototype.
+Son expertise autant en électronique qu’en véhicules anciens vont être d’une aide précieuse pour la réalisation du prototype.
 
-Et voici ce que ça donnera :
+Et voici le résultat :
+
+Bon c'est un peu rouillé, mais avec un peu d'huile de coude et quelques pièces changées, ça pourrait ressembler à ça :
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_6f0a79d9ab6a89ebdb6be74ad9bfe2a3.png)
 
 
-**Prochaine étape** : nettoyer et passer un traitement anti corrosion sur tout le châssis avant de travailler sur le moteur
+Nous nous occuperons du chassis une fois que toute la partie motorisation et les batteries seront fonctionnelles.
 
 ## Un moteur pour la convi !
 
-:::info
-**TL;DR** Pour le prototype nous avons choisis le moteur de la Renault Twizy, il correspond à nos besoins, se trouve d’occasion et son variateur est bien connu. De plus, d’autres projet de retrofit 4L l’ont utilisé.
-:::
+{{< rawhtml >}}
+<div class="pa2 bg-lightest-blue">
+<p><strong>TL;DR</strong> Pour le prototype nous avons choisis le moteur de la Renault Twizy, il correspond à nos besoins, se trouve d’occasion et son variateur est bien connu. De plus, d’autres projet de retrofit 4L l’ont utilisé.
+</div>
+{{< /rawhtml >}}
 
 En parlant du moteur, ça a été aussi toute une histoire !
 
@@ -81,33 +92,55 @@ Nous avons beaucoup échanger à ce sujet : moteurs dans les roues ou central ? 
 
 Il a finalement été décidé de partir sur ce qui se fait de plus courant en rétrofit (conversion d'un véhicule thermique en électrique), à savoir d’installer le moteur électrique à la place du moteur thermique en gardant la boite de vitesse d’origine ainsi que les cardans.
 
-C’est par exemple ce qu’on fait Renault Classic et Melun Retro Passion sur leur magnifique retrofit e-plein Air :
+C’est par exemple ce qu’on fait Renault Classic et Melun Retro Passion sur leur magnifique retrofit de 4L e-plein Air :
 
 ![Photo de la e Plein air](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_a5e2796f6919bb59998c450734607629.png)
 
 Nous avons choisi d’utiliser, comme pour la e-plein air, le moteur de la Renault Twizy pour plusieurs raisons :
-    • C’est un des rares moteurs disponible sur le marché (aussi bien en neuf que d’occasion) correspondant à cette catégorie de véhicule (L7). On est ainsi sur qu’en terme de poids et de puissance, ça sera suffisant, sans être sur dimensionné
-    • La twizy est sans doute le seul véhicule de cette catégorie a avoir été fabriqué en relativement grande série et conçu par Renault. C’est un gage de bonne conception et de qualité.
-    • Son variateur/onduleur (c’est la partie qui fait le lien entre la batterie, l’accelerateur et le moteur), le SEVCON GEN 4 est bien connue et certains professionnels proposent ce variateur programmé pour le moteur de la Twizy, mais sans les restrictions installées par Renault. Cela pourrait être une bonne base pour avoir du matériel ouvert ? Nous verrons bien.
-Autre avantage : il a une prise CAN bus qui nous permettra de brancher des équipements spécifiques dessus.
-    
+- C’est un des rares moteurs disponible sur le marché (aussi bien en neuf que d’occasion) correspondant à cette catégorie de véhicule (L7). On est ainsi sûr qu’en terme de poids et de puissance, ça sera suffisant, sans être sur dimensionné
+- La twizy est sans doute le seul véhicule de cette catégorie a avoir été fabriqué en relativement grande série et conçu par Renault. C’est un gage de bonne conception et de qualité.
+- Son variateur/onduleur (c’est la partie qui fait le lien entre la batterie, l’accelerateur et le moteur), le SEVCON GEN 4 est bien connue et certains professionnels proposent ce variateur programmé pour le moteur de la Twizy, mais sans les restrictions installées par Renault (voir plus bas)
+
+
+## J'ai changé mon variateur et elle dépote ma mobilette
+
+Oui, ce terme me rappelle mes années collège où je bricolais ma "brêle".
+Sur une mobilette, c'est un élément mécanique qui permet de remplacer une boîte de vitesse.
+
+Dans une voiture électrique, c'est un élément électronique important responsable de plusieurs choses :
+- Faire varier l'intensité électrique envoyée au moteur en fonction de l'acceleration
+- Dans le cas d'un moteur en courant alternatif, il fait aussi office d'onduleur pour convertir le courant continu des batteries en courant alternatif (triphasé dans notre cas) permettant de faire tourner le moteur
+- Gérer le faisceau électrique du véhicule et renvoyer des informations (intensité instantanée, vitesse etc.) via ce qu'on appelle un bus CAN et pouvoir les afficher par la suite sur le tableau de bord par exemple.
+
+Comme dit plus haut, nous avons opté pour le même modèle de variateur que celui de la Twizzy, mais avec une programmation beaucoup plus simple. Il est dans un mode presque "analogique" qui nous permettra en théorie de brancher simplement l'accélerateur, la batterie (via le BMS) et le moteur sans contraintes.
+
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_2d8061c0c465fd94d2f4601bef2d2cc2.png)
+*Le SEVCOM GEN 4 produit en Slovénie*
 
 
-Nous comptons donc faire appel aux services de [kit elec shop](https://www.kit-elec-shop.com/fr/) (basé à Tours) pour nous fournir un SEVCOM pré configuré et sans doute nous aider par la suite dans nos développements (ajout de fonctionnalités).
-Nous tenons à remercier l’équipe pour leure écoute et leure souplesse.
+Nous avons fait appel aux services de [kit elec shop](https://www.kit-elec-shop.com/fr/) (basé à Tours) pour nous fournir un SEVCOM pré configuré et sans doute nous aider par la suite dans nos développements (ajout de fonctionnalités).
+
+
+Nous tenons à remercier l’équipe de Kit Elec Shop pour leur écoute et leur souplesse.
+
+
+Nous avons reçu fin août ce magnifique [kit](https://www.kit-elec-shop.com/fr/kits-avec-moteur-asynchrone/4963-kit-electrification-vehicule-48v-sans-moteur-asynchrone-12kw-et-reducteur-sans-batterie.html) que nous avons hâte d'installer.
+
+Cerise sur le gateau : si j'ai bien compris, certains éléments de la configuration du variateur font partie d'un projet [Open Source de Renault](https://www.openmotors.co/renaultpomsignup/) (à l'origine du projet Tabby d'ailleurs). Une bonne base pour un début de matériel ouvert ? Nous verrons bien.
 
 ## Et les batteries ?
 
-:::info
-**TL;DL** Nous allons surement assembler nos propres batteries à partir de cellules cylindre LiFePo3. Le choix du BMS n’est pas encore acté.
-:::
+{{< rawhtml >}}
+<div class="pa2 bg-lightest-blue">
+<p><strong>TL;DR</strong> Nous allons surement assembler nos propres batteries à partir de cellules cylindre LiFePo3. Le choix du BMS n’est pas encore acté.
+</div>
+{{< /rawhtml >}}
 
 Vous l’aurez compris, notre spécialiste batteries dans l’équipe c’est David.
 Même s’il a beaucoup d’expérience sur l’assemblage de batteries de vélo, une batterie pour voiture électrique est sensiblement différente en terme de dimensionnement.
 Pour vous donner une idée, nous souhaitons intégrer à notre prototype une batterie de **6kWh** (comme la Twizy), ce qui représente l’équivalent de **12 batteries de vélo électriques** (500Wh en moyenne).
 La puissance délivrée par notre moteur est quand à elle **48 fois plus importante** que celle d’un vélo électrique (12kW contre 250W) ! A comparaison une Tesla à un moteur de plus de **240kW** et embarque minimum **57kWh** de batteries !
-A ce compte là on est presque plus proche d'un vélo que d'une Tesla :D.
+A ce compte là on est presque plus proche d'un vélo électrique que d'une Tesla :D.
 
 Il faut donc des cables plus gros (on est sur du courant continu, ça chauffe!) et, dans le cas du Lithium, un BMS de qualité (voir plus loin).
 Si le dimensionnement et la chimie de la batterie sont choisis, nous ne sommes pas arrêtés sur le format de cellules : prismatiques, cylindriques de différentes tailles (18650/ 32650 etc)... Le rapport qualité/prix ainsi que l'intégration sur le châssis du prototype vont orienter cette décision.
@@ -117,17 +150,19 @@ Pour le prototype, il y a de grande chance pour que ce soit des celulles cylindr
 *Le format cylindrique donne plus de liberté dans la forme des batteries*
 
 Pourquoi un tel choix ?
-* C’est le meilleur rapport qualité/prix
+- C’est le meilleur rapport qualité/prix
 - David à l’habitude et le matériel pour assembler ces batteries
 - Les cellules cylindriques étant plus petites (mais plus nombreuses), elles offrent une souplesse en terme d’aménagement. Dans notre cas, nous souhaitons mettre les batteries à l’intérieur du châssis afin de dégager un maximum de place sur le plateau.
 
-Côté technologie, nous partons sur du [Lithium Fer Phosphate](https://fr.wikipedia.org/wiki/Accumulateur_lithium-fer-phosphate) pour plusieurs raisons :
-* C’est la technologie la plus fiable (non inflammable)
-* Elle offre un nombre de cycle plus élevé (entre 1500 et 5000) que les batteries à technologie Cobalt-Nickel ou Lithium iOn polymère, ce qui laisse espérer une durée de vie possible de 10~15 ans ou 300 000 km !
-* Elle ne contiennent pas de Cobalt, élément rare qui fait l’objet de beaucoup de pression et dont l’extraction est très problématique. Les mines sont au congo, « emploient » souvent des enfants et financent des guérillas.
-* Elles ont certes une moins bonne densité énergétique (rapport poids/puissance), mais comme on en met peut et qu’on vise une autonomie limitée c’est moins un problème.
+Note : Il se peut aussi que nous partions sur des éléments d'occasion de batteries d'autres voitures afin de réduire les coûts du prototype et perdre moins de temps en conception dans un premier temps. A voir, si nous trouvons des éléments qui nous conviennent.
 
-Pour l’instant, le choix du BMS n’est pas encore arrêté. Idéalement, nous aimerions avoir un matériel open source et open hardware, mais pour le proto, on prendra ce qu’il y a de plus pratique pour nous (technologie connue) et de moins cher sans doute.
+Côté technologie, nous partons sur du [Lithium Fer Phosphate](https://fr.wikipedia.org/wiki/Accumulateur_lithium-fer-phosphate) pour plusieurs raisons :
+- C’est la technologie la plus fiable (non inflammable)
+- Elle offre un nombre de cycle plus élevé (entre 1500 et 5000) que les batteries à technologie Cobalt-Nickel (présente dans les Tesla), ce qui laisse espérer une durée de vie possible de 10~15 ans ou 300 000 km !
+- Elle ne contiennent pas de Cobalt, élément rare qui fait l’objet de beaucoup de pression et dont l’extraction est très problématique. Les mines sont principalement au congo, « emploient » souvent des enfants et financent des guérillas.
+- Elles ont certes une moins bonne densité énergétique (rapport poids/puissance), mais comme on en met peut et qu’on vise une autonomie limitée c’est moins un problème.
+
+Pour l’instant, le choix du BMS (si vous ne savez pas ce que c'est, on en parlerai dans un autre billet soyez rassuré) n’est pas encore arrêté. Idéalement, nous aimerions avoir un matériel open source et open hardware, mais pour le proto, on prendra ce qu’il y a de plus pratique pour nous (technologie connue) et de moins cher sans doute.
 
 ## Et à quoi elle va ressembler votre « conviviale » ?
 
@@ -151,34 +186,37 @@ https://www.cgtrader.com/3d-models/car/antique/fiat-600-multipla-coriasco-famili
 
 
 Rien d’arrêté pour l’instant mais des grandes lignes structurelles se dessinent :
-    • Siège conducteur au niveau des roues avant pour gagner un max de place à l’arrière
-    • 4 sièges très légers pliables, escamotables et plaçables à plusieurs endroits pour une modularité poussée à l’extrême (exemple une ligne de 3 sièges sur le côté gauche du véhicule et toute une longeur disponible pour mettre du matériel).
-    • Une structure tubulaire simple et plane pour simplifier la réalisation
+- Siège conducteur au niveau des roues avant pour gagner un max de place à l’arrière
+- 4 sièges très légers pliables, escamotables et plaçables à plusieurs endroits pour une modularité poussée à l’extrême (exemple une ligne de 3 sièges sur le côté gauche du véhicule et toute une longeur disponible pour mettre du matériel).
+- Une structure tubulaire simple et plane pour simplifier la réalisation
 
-
+{{< rawhtml >}}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HgetuwbVLms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /rawhtml >}}
 
 C’est Arno le pro du domaine de l’habitacle, il déniche des vieilles voitures méconnues (des protos non commercialisés aussi) mais tellement bien conçues. Nos principales inspirations viennent des voitures des années 60~70 et des keicar (catégorie de petites voitures similaire à nos quadricycles lourds) japonaises.
-En voici un petit panorama
+En voici un petit panorama :
 
-![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_7a0bc0ab2fc4e5a152c674a0f066c7d9.png)
-*Un étonnant concept car Honda qui date de plus de 20 ans*
+![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_a10ed31e76a069a20efe93c1e17cfe3f.png)
+*Le XBUS du constructeur Allemand Electricband est un des seul véhicule contemporain à avoir des caractéristiques similaires à ce qu'on souhaite faire.*
 
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_d72d08ed256d4db5423e328ec500bfa7.png)
 *La petite française pixel qui n'a jamais été produite en grande série*
 
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_82d464a788b2a5f036457e39b42121de.png)
 
-![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_a10ed31e76a069a20efe93c1e17cfe3f.png)
-*Le XBUS du constructeur Allemand electricband est un des seul véhicule contemporain à avoir des caractéristiques similaires à ce qu'on souhaite faire.*
 
+![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_7a0bc0ab2fc4e5a152c674a0f066c7d9.png)
+*Un étonnant concept car Honda qui date de plus de 20 ans*
 
 
 ## Un modèle économique différent
 
-:::info
-**TL;DR** Les clients monterons eux même la voiture dans des ateliers en suivant une formation. Ils ne paieront pas pour un objet fini, mais pour des pièces et une formation. Notre structure sera à but non lucratif.
-:::
+{{< rawhtml >}}
+<div class="pa2 bg-lightest-blue">
+<p><strong>TL;DR</strong>Les clients monteront eux même la voiture dans des ateliers en suivant une formation. Ils ne paieront pas pour un objet fini, mais pour des pièces et une formation. Notre structure sera à but non lucratif.
+</div>
+{{< /rawhtml >}}
 
 Nous ne comptons pas fabriquer des voitures comme un constructeur classique.
 En effet, il nous serait impossible d’être concurrentiel en terme de prix et notre voiture ne serait accessible qu’aux plus riches. Or, nous comptons proposer un prix de vente de 10 000€ (ça sera sans doute un peu plus).
@@ -190,10 +228,11 @@ Pas sûr que ce dernier aspect soit validé par l’UTAC CERAM (laboratoire resp
 
 
 ## Et la suite ?
-La prochaine étape consistera à réaliser une pièce de jonction entre la boite de vitesse et le moteur de la twizy, à l’instar de ce qu’a fait ce slovène sur un rétrofit 4L.
-Vidéo
+La prochaine étape consistera à réaliser une pièce de jonction entre la boite de vitesse et le moteur de la twizy, à l’instar de ce qu’a fait [ce slovène sur un rétrofit 4L](https://www.youtube.com/watch?v=c1RCV6uzLZA).
+
 Pour cela, un habitant de Latillé et bénévole du sens du fil, Bruno, est prêt à nous aider. Il est ancien soudeur pour la division prototype de chez Heuliez (constructeur de la Mia notamment).
-Pour la réalisation de la pièce, nous comptons faire appel à un tourneur fraiseur spécialisé dans les voitures anciennes.
+
+Pour la réalisation de la pièce, nous comptons faire appel à un tourneur fraiseur spécialisé dans les voitures anciennes. Andréas leur emmène le moteur et la boîte la semaine prochaine.
 
 
 ## Quand pourra-t-on rouler en « convi » ?
@@ -219,6 +258,7 @@ Nous envisageons une collaboration à grande échelle avec différents acteurs d
 ## Le mot de la fin
 
 Merci d'avoir pris le temps de lire cette newsletter jusqu'au bout.
-Nous espérons vous présentez la prochaine fois le chassis desossé avec le moteur de la Twizy monté dessus !
+
+Nous espérons vous présentez la prochaine fois le chassis avec le moteur de la Twizy monté dessus !
 
 Comme on dit : « la route est longue, mais la voie est libre ! »
