@@ -1,6 +1,7 @@
 ---
 title: "Point d'avancement #1"
-date: 2021-08-07T11:55:43+02:00
+date: 2021-09-06T17:55:43+02:00
+author: "Andréas Livet"
 toc: true
 ---
 
@@ -15,13 +16,13 @@ Je tente un format de newsletter assez inhabituel avec beaucoup de contenu techn
 
 Avant tout, il convient de vous présenter les personnes qui travaillent bénévolement sur le projet
 
-* Andréas Livet : initiateur du projet. Développeur et formateur en informatique depuis plus de 10 ans, je me passionne pour la question écologique depuis longtemps et plus particulièrement les questions technologiques avec un regard « décroissant » et très fortement axé low tech (merci Phillipe Bioux). J’ai assisté Guillaume Augais lors de la création du fond de dotation « Agir Low Tech » et participe modestement à la création d’un superbe tiers lieu à Latillé : Le sens du fil
+* Andréas Livet : initiateur du projet. Développeur et formateur en informatique depuis plus de 10 ans, je me passionne pour la question écologique depuis longtemps et plus particulièrement les questions technologiques avec un regard « décroissant » et très fortement axé low tech (merci Phillipe Biouix). J’ai participé à la création du fond de dotation « Agir Low Tech » et participe modestement à la création d’un superbe tiers lieu à Latillé : Le sens du fil
 * Arno : l’homme aux mille idées. Passionné de voiture dans sa jeunesse (BTS en combustion interne), il s’oriente après dans le bâtiment et devient thermicien, puis enseignant en étude des constructions. Ce « touche à tout » revient donc à ses premiers amours avec la conviviale et nous apporte un vrai regard de designer. Il débusque des trouvailles dans les tréfonds d’internet dans ses nuits d’insomnies.
 * David : Grand bricoleur devant l’éternel, David a une passion pour les vélos ainsi que pour leur électrification. Il en a fait son activité principale il y a 10 ans et conçoit maintenant ses batteries. Il a installé plus de 200 kits de vélo et conçu autant de batteries. C’est notre référent sur la partie électricité.
 
 ## Pourquoi faire une voiture ?
 
-Comme dit Arno, décidément, on a raté un tournant à partir des année 80 dans l’automobile… Et oui, les voitures sont progressivement devenues plus lourdes, sécurisées, confortables, irreparables et bourrées de gadgets inutiles. Malheureusement, la voiture électrique suit cette même pente, alors que les précurseuses, comme la MIA, avaient tout compris !
+Comme dit Arno, décidément, on a raté un tournant à partir des années 80 dans l’automobile… Et oui, les voitures sont progressivement devenues plus lourdes, sécurisées, confortables, irreparables et bourrées de gadgets inutiles. Malheureusement, la voiture électrique suit cette même pente, alors que les précurseuses, comme la MIA, avaient tout compris !
 
 Il semble qu’aucun constructeur automobile ne souhaite revenir à cette forme de simplicité et délaisse le créneau des véhicules léger (catégorie quadricycle lourds). Il fallait donc que quelqu'un s'atèle à la réalisation de ce fameux « pot de yaourt à roulette » dont parle Biouix !
 
