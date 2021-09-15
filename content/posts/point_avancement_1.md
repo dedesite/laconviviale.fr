@@ -73,7 +73,7 @@ Son expertise autant en électronique qu’en véhicules anciens vont être d’
 
 Et voici le résultat :
 
-![](https://laconviviale.fr/img/châssis_large.jpg)
+![](https://laconviviale.fr/img/chassis_large.jpg)
 
 Bon c'est un peu rouillé, mais avec un peu d'huile de coude et quelques pièces changées, ça pourrait ressembler à ça :
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_6f0a79d9ab6a89ebdb6be74ad9bfe2a3.png)
