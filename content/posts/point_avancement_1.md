@@ -58,7 +58,7 @@ On a d’abord cherché dans les véhicules légers des années 80 : C15, AX, et
 On a alors trouvé notre bonheur dans des châssis de conception plus ancienne à savoir ceux de la 4L car : 
 - Ces châssis sont de nouveau fabriqués par des équipementiers et on trouve des pièces neuves pour tous les éléments (cardans, amortisseurs, etc.). Cela pourra être une bonne base pour le véhicule final.
 - Énormément de personnes (principalement des jeunes ingénieurs par le biais du 4L trophy) réparent ces voitures et partage leur expérience détaillée en vidéo sur Youtube. J’ai rarement vu une voiture bricoler et retaper par un nombre aussi important de personne.
-- C’est une voiture qui correspond à ce que l’on souhaite faire en termess de poids, puissance et dimensions
+- C’est une voiture qui correspond à ce que l’on souhaite faire en termes de poids, puissance et dimensions
 - Avec la 2CV, elle représente une sorte d’« âge d’or » de l’automobile low tech, légère, sans chichi, réparable, tout en étant esthétique.
 
 Début juin, Andréas est donc parti, sur un coup de tête, en covoiturage à Nantes acheter un 4 GTL a une famille qui l’utilisait pour emmener les enfants à l’école. Maintenant grand ados, ils ont vu partir leur 4L avec beaucoup d’émotion. Merci à Grégory !
@@ -100,7 +100,7 @@ C’est par exemple ce qu’on fait Renault Classic et Melun Retro Passion sur l
 ![Photo de la e Plein air](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_a5e2796f6919bb59998c450734607629.png)
 
 Nous avons choisi d’utiliser, comme pour la e-plein air, le moteur de la Renault Twizy pour plusieurs raisons :
-- C’est un des rares moteurs disponible sur le marché (aussi bien en neuf que d’occasion) correspondant à cette catégorie de véhicule (L7). On est ainsi sûr qu’en termess de poids et de puissance, ça sera suffisant, sans être sur dimensionné
+- C’est un des rares moteurs disponible sur le marché (aussi bien en neuf que d’occasion) correspondant à cette catégorie de véhicule (L7). On est ainsi sûr qu’en termes de poids et de puissance, ça sera suffisant, sans être sur dimensionné
 - La twizy est sans doute le seul véhicule de cette catégorie à avoir été fabriqué en relativement grande série et conçu par Renault. C’est un gage de bonne conception et de qualité.
 - Son variateur/onduleur (c’est la partie qui fait le lien entre la batterie, l’accélérateur et le moteur), le SEVCON GEN 4 est bien connue et certains professionnels proposent ce variateur programmé pour le moteur de la Twizy, mais sans les restrictions installées par Renault (voir plus bas)
 
@@ -118,7 +118,7 @@ Dans une voiture électrique, c'est un élément électronique important respons
 Comme dit plus haut, nous avons opté pour le même modèle de variateur que celui de la Twizzy, mais avec une programmation beaucoup plus simple. Il est dans un mode presque "analogique" qui nous permettra en théorie de brancher simplement l'accélérateur, la batterie (via le BMS) et le moteur sans contraintes.
 
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_2d8061c0c465fd94d2f4601bef2d2cc2.png)
-*Le SEVCOM GEN 4 produit en Slovénie*
+*Le SEVCOM GEN 4 produit en Pologne*
 
 
 Nous avons fait appel aux services de [Kit Elec Shop](https://www.kit-elec-shop.com/fr/) (basé à Tours) pour nous fournir un SEVCOM pré configuré et sans doute nous aider par la suite dans nos développements (ajout de fonctionnalités).
@@ -140,7 +140,7 @@ Cerise sur le gâteau : si j'ai bien compris, certains éléments de la configur
 {{< /rawhtml >}}
 
 Vous l’aurez compris, notre spécialiste batterie dans l’équipe c’est David.
-Même s’il a beaucoup d’expérience sur l’assemblage de batteries de vélo, une batterie pour voiture électrique est sensiblement différente en termess de dimensionnement.
+Même s’il a beaucoup d’expérience sur l’assemblage de batteries de vélo, une batterie pour voiture électrique est sensiblement différente en termes de dimensionnement.
 Pour vous donner une idée, nous souhaitons intégrer à notre prototype une batterie de **6kWh** (comme la Twizy), ce qui représente l’équivalent de **12 batteries de vélo électriques** (500Wh en moyenne).
 La puissance délivrée par notre moteur est quant à elle **48 fois plus importante** que celle d’un vélo électrique (12kW contre 250W) ! A comparaison une Tesla à un moteur de plus de **240kW** et embarque minimum **57kWh** de batteries !
 A ce compte-là on est presque plus proche d'un vélo électrique que d'une Tesla :D.
@@ -198,7 +198,11 @@ Rien d’arrêté pour l’instant mais des grandes lignes structurelles se dess
 {{< /rawhtml >}}
 
 C’est Arno le pro du domaine de l’habitacle, il déniche des vieilles voitures méconnues (des protos non commercialisés aussi) mais tellement bien conçues. Nos principales inspirations viennent des voitures des années 60~70 et des Keicars (catégorie de petites voitures similaire à nos quadricycles lourds) japonaises.
-En voici un petit panorama :
+Voici un petit panorama de projet récents et moins récents qui nous inspirent :
+
+
+![](/img/affranchie.webp)
+*L'affranchie, superbe concept car de Loïc LE GUEN basé sur le chassis OS Vehicule*
 
 ![](https://s3.standard.indie.host/pad-lamyne-org/uploads/upload_a10ed31e76a069a20efe93c1e17cfe3f.png)
 *Le XBUS du constructeur Allemand Electricband est un des seuls véhicule contemporain à avoir des caractéristiques similaires à ce qu'on souhaite faire.*
@@ -243,9 +247,10 @@ Pour la réalisation de la pièce, nous comptons faire appel à un tourneur frai
 Très bonne question ! La réponse dépend principalement de l’engouement que succitera le projet auprès du public et des institutions.
 
 Voici les différentes étapes envisagées avec un angle optimiste :
-    • Jusqu’à fin 2021 : réalisation d’un premier prototype qui servira d’illustration du concept en termes d’usage et d’habitacle. Il ne sera pas homologué et sera sans doute assez éloigné du produit final en termes de technologie (châssis, moteur, batteries, carroserie)
-    • 2022 : Campagne de financement participatif en vue de réaliser un véhicule de pré-série qui servira de base à l’homologation (min 60 000€ !). Là seront faits les choix définitifs en termess de pièces et technologie fournisseur.
-    • A partir de 2023 minimum : début des premiers ateliers de formation/montage et 1ère conviviales sur les routes de France et pourquoi pas d’Europe ?
+
+- Jusqu’à mi-2022 : réalisation d’un premier prototype qui servira d’illustration du concept en termes d’usage et d’habitacle. Il ne sera pas homologué et sera sans doute assez éloigné du produit final en termes de technologie (châssis, moteur, batteries, carroserie)
+- 2022-2023 : Campagne de financement participatif en vue de réaliser un véhicule de pré-série qui servira de base à l’homologation (min 60 000€ !). Là seront faits les choix définitifs en termes de pièces et technologie fournisseur.
+- A partir de fin 2023 minimum : début des premiers ateliers de formation/montage et 1ère conviviales sur les routes de France et pourquoi pas d’Europe ?
 
 ## Futurs partenaires
 
