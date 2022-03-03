@@ -3,7 +3,6 @@ title: "Point d'avancement #2"
 date: 2022-02-23T17:55:43+02:00
 author: "Andréas Livet"
 toc: true
-draft: true
 ---
 
 Cela fait bien longtemps que je n'avais pas donné de nouvelles du projet, il était donc temps de vous tenir informé des derniers avancements.
@@ -64,7 +63,7 @@ C'est le rôle du BMS. Il protège aussi la batterie de décharges trop profonde
 
 Les chinois fabriquent toutes sortes de BMS et nous comptions partir sur [ce genre de modèle au début](https://fr.aliexpress.com/item/4000965709746.html) :
 
-![](https://ae01.alicdn.com/kf/H6b847ffa8bc14923bb6d4c8858a9dfa53/Daly-BMS-bluetooth-APP-4S-LiFePo4-12V-24V-48V-40A-60A-100A-120A-150A-200A-300A.jpg_640x640.jpg)
+![daly-bms](https://ae01.alicdn.com/kf/H6b847ffa8bc14923bb6d4c8858a9dfa53/Daly-BMS-bluetooth-APP-4S-LiFePo4-12V-24V-48V-40A-60A-100A-120A-150A-200A-300A.jpg_640x640.jpg)
 *Un exemple de BMS chinois rutilent avec plein d'accessoires mais quid de la fabrication et du support client ? Sans parler des problèmes de livraison et de frais de douanes.*
 
 Le soucis c'est que ce sont des BMS dit "traversant", c'est à dire que le courant provenant de la batteria passe dedans pour aller vers le variateur. Ce n'est pas un gros problème sur des courants de faible intensité, mais avec un moteur de 12kW et 48V, on peut attendre une intensité de 250A, ce qui commence à faire beaucoup !
@@ -75,7 +74,7 @@ Plusieurs spécialistes m'ont donc conseillé de prendre un BMS non traversant q
 
 Thierry Lequeu du site [kit elec shop](https://www.kit-elec-shop.com/fr/) m'a parlé d'un BMS intéressant fabriqué en Lituanie : le [tinyBMS](https://www.energusps.com/shop/product/tiny-bms-s516-150a-750a-36).
 
-![](https://www.energusps.com/website/image/product.template/36_beaad6c/image)
+![tiny-bms](https://www.energusps.com/website/image/product.template/36_beaad6c/image)
 *Il est vraiment petit ce tinyBMS*
 
 
@@ -111,7 +110,7 @@ Autre raison pour garder la boite de vitesse et ne pas utiliser le [réducteur d
 
 Si l'on voulait prendre le réducteur de la twizy, ça serait une toute autre affaire. En effet, il n'est pas dans l'axe du moteur. Il faudrait donc faire des modification importantes sur le chassis pour pouvoir fixer et positionner le réducteur. Mixer les cardans de la twizy à ceux de la 4L et enfin, positionner le moteur de la twizy en travers du chassis et non aligné, comme c'est le cas du moteur initial (voir photo).
 
-![](https://www.kit-elec-shop.com/23389-large_default/moteur-asynchrone-12kw-et-reducteur-differentiel-renault-twizy.jpg)
+![moteur-reducteur-twizy](https://www.kit-elec-shop.com/23389-large_default/moteur-asynchrone-12kw-et-reducteur-differentiel-renault-twizy.jpg)
 *Le moteur est en travers du réducteur*
 
 Donc, maintenant que l'on sait que l'on a besoin de la boite de vitesse originale, comment fait-on pour que le moteur électrique puisse transmettre sa puissance à la boite ?
@@ -123,7 +122,7 @@ C'est un travail de tourneur fraisage relativement facile à ce que j'en ai comp
 
 Pour l'accomplement du moteur et de la boite, c'est une autre affaire. Généralement, les tourneurs fraiseurs utilisent ce que l'on appelle des pièces d'accouplement (voir photo). C'est un mécanisme assez standard composé généralement de 2 pièces qui vont s'emboiter dans chacune des parties et se relier pour transmettre la forme rotative du moteur à l'autre extrémitée.
 
-![Exemple de pièce d'accouplement](https://www.hydrodis.com/1143/flector-d-accouplement.jpg)
+![piece-accouplement](https://www.hydrodis.com/1143/flector-d-accouplement.jpg)
 *Exemple de pièce d'accouplement dit "elastique"*
 
 Malheureusement, la prise de force de la boîte de vitesse, n'est pas standard et, selon les tourneurs fraiseurs à qui j'ai fais appel, il n'est pas aisé de fabriquer une pièce d'accouplement qui s'adapterai à la boite de la 4L.
@@ -141,3 +140,10 @@ Le travail sur l'aspect mécanique est donc à l'arrêt tant que nous n'avons pa
 
 A moins, d'acheter un réducteur de twizy et faire les essais avec, puis le revendre au moment d'avoir la pièce. Mais ce sont des pièces relativement chères et je ne sais pas si ça se revend bien. Ce n'est pas tout le monde qui a ce genre de besoins...
 
+## La suite
+
+Vous vous en doutez, nous allons continuer à travailler sur la restauration du chassis et arriver à trouver une solution pour la pièce d'accouplement.
+
+Aussi, vous aurez sans doute bientôt des images de l'habitacle, je n'en dis pas plus... :)
+
+A bientôt !
