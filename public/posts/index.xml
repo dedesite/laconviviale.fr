@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on La conviviale</title>
-    <link>https://laconviviale.fr/posts/</link>
-    <description>Recent content in Blog on La conviviale</description>
+    <title>Blog on Andréas Livet</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Blog on Andréas Livet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sat, 07 Aug 2021 11:54:42 +0200</lastBuildDate><atom:link href="https://laconviviale.fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 17:55:43 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Point d&#39;avancement #2</title>
-      <link>https://laconviviale.fr/posts/point_avancement_2/</link>
+      <link>http://localhost:1313/posts/point_avancement_2/</link>
       <pubDate>Wed, 23 Feb 2022 17:55:43 +0200</pubDate>
-      
-      <guid>https://laconviviale.fr/posts/point_avancement_2/</guid>
-      <description>Cela fait bien longtemps que je n&amp;rsquo;avais pas donné de nouvelles du projet, il était donc temps de vous tenir informé des derniers avancements.
-La conviviale intègre le tiers lieu &amp;ldquo;Le sens du fil&amp;rdquo; Vous vous rappelez sans doute que je bricolais le chassis de la 4L dans mon jardin. Bien évidement cela avait des limites et il fallait à la conviviale un toit au dessus de la tête ainsi qu&amp;rsquo;une structure juridique à laquelle elle serait adossée pour pouvoir éventuellement faire des demandes de subvention et répondre à des appels à projet.</description>
+      <guid>http://localhost:1313/posts/point_avancement_2/</guid>
+      <description>Cela fait bien longtemps que je n&amp;rsquo;avais pas donné de nouvelles du projet, il était donc temps de vous tenir informé des derniers avancements.&#xA;La conviviale intègre le tiers lieu &amp;ldquo;Le sens du fil&amp;rdquo; Vous vous rappelez sans doute que je bricolais le chassis de la 4L dans mon jardin. Bien évidement cela avait des limites et il fallait à la conviviale un toit au dessus de la tête ainsi qu&amp;rsquo;une structure juridique à laquelle elle serait adossée pour pouvoir éventuellement faire des demandes de subvention et répondre à des appels à projet.</description>
     </item>
-    
     <item>
       <title>Point d&#39;avancement #1</title>
-      <link>https://laconviviale.fr/posts/point_avancement_1/</link>
+      <link>http://localhost:1313/posts/point_avancement_1/</link>
       <pubDate>Mon, 06 Sep 2021 17:55:43 +0200</pubDate>
-      
-      <guid>https://laconviviale.fr/posts/point_avancement_1/</guid>
-      <description>Bienvenue dans la première newsletter consacrée à la conviviale, le véhicule électrique, low tech et open source destiné à la campagne et aux autres contrées !
-Le projet a démarré depuis peu, mais vous allez voir, il y a beaucoup de choses à dire !
-Je tente un format de newsletter assez inhabituel avec beaucoup de contenu technique. Ceux que ça n&amp;rsquo;intéresse pas pourront se contenter de lire le résumé de chaque section.</description>
+      <guid>http://localhost:1313/posts/point_avancement_1/</guid>
+      <description>Bienvenue dans la première newsletter consacrée à la conviviale, le véhicule électrique, low tech et open source destiné à la campagne et aux autres contrées !&#xA;Le projet a démarré depuis peu, mais vous allez voir, il y a beaucoup de choses à dire !&#xA;Je tente un format de newsletter assez inhabituel avec beaucoup de contenu technique. Ceux que ça n&amp;rsquo;intéresse pas pourront se contenter de lire le résumé de chaque section.</description>
     </item>
-    
   </channel>
 </rss>

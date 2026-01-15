@@ -1,13 +1,13 @@
-baseURL = "https://laconviviale.fr/"
+baseURL = "https://livet.me/"
 defaultContentLanguage = "fr"
 languageCode = "fr-fr"
-title = "La conviviale"
+title = "Andréas Livet"
 theme = "ananke"
 
 [params]
   favicon = ""
   site_logo = ""
-  description = "Un véhicule électrique low tech, open source et modulaire"
+  description = "Site d'Andréas Livet (anciennement La Conviviale)"
   facebook = ""
   twitter = ""
   instagram = ""
