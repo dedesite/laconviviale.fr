@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>La conviviale on Andréas Livet</title>
-    <link>http://localhost:1313/</link>
+    <link>https://livet.me/</link>
     <description>Recent content in La conviviale on Andréas Livet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Wed, 23 Feb 2022 17:55:43 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://livet.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Point d&#39;avancement #2</title>
-      <link>http://localhost:1313/posts/point_avancement_2/</link>
+      <link>https://livet.me/posts/point_avancement_2/</link>
       <pubDate>Wed, 23 Feb 2022 17:55:43 +0200</pubDate>
-      <guid>http://localhost:1313/posts/point_avancement_2/</guid>
+      <guid>https://livet.me/posts/point_avancement_2/</guid>
       <description>Cela fait bien longtemps que je n&amp;rsquo;avais pas donné de nouvelles du projet, il était donc temps de vous tenir informé des derniers avancements.&#xA;La conviviale intègre le tiers lieu &amp;ldquo;Le sens du fil&amp;rdquo; Vous vous rappelez sans doute que je bricolais le chassis de la 4L dans mon jardin. Bien évidement cela avait des limites et il fallait à la conviviale un toit au dessus de la tête ainsi qu&amp;rsquo;une structure juridique à laquelle elle serait adossée pour pouvoir éventuellement faire des demandes de subvention et répondre à des appels à projet.</description>
     </item>
     <item>
       <title>Point d&#39;avancement #1</title>
-      <link>http://localhost:1313/posts/point_avancement_1/</link>
+      <link>https://livet.me/posts/point_avancement_1/</link>
       <pubDate>Mon, 06 Sep 2021 17:55:43 +0200</pubDate>
-      <guid>http://localhost:1313/posts/point_avancement_1/</guid>
+      <guid>https://livet.me/posts/point_avancement_1/</guid>
       <description>Bienvenue dans la première newsletter consacrée à la conviviale, le véhicule électrique, low tech et open source destiné à la campagne et aux autres contrées !&#xA;Le projet a démarré depuis peu, mais vous allez voir, il y a beaucoup de choses à dire !&#xA;Je tente un format de newsletter assez inhabituel avec beaucoup de contenu technique. Ceux que ça n&amp;rsquo;intéresse pas pourront se contenter de lire le résumé de chaque section.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://livet.me/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://livet.me/contact/</guid>
       <description>Vous pouvez m&amp;rsquo;envoyer un mail à monprenom@lenomdedomainedecesite.</description>
     </item>
   </channel>
